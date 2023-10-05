@@ -91,9 +91,14 @@ public class Looping {
 		        for (int i = tail; i < length; ++i) {
 		            charArray[i] = '\0';
 		        }
+<<<<<<< HEAD
 		        System.out.println("Bala");
 		        System.out.println("Bala");
 
+=======
+		        System.out.println();
+		        
+>>>>>>> c106fd8d93e3a6fef01b12d75f30cb687e9a52e3
 		        return new String(charArray, 0, tail);
 		    }
 		
