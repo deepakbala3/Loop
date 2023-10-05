@@ -91,6 +91,8 @@ public class Looping {
 		        for (int i = tail; i < length; ++i) {
 		            charArray[i] = '\0';
 		        }
+		        System.out.println();
+		        System.out.println();
 
 		        return new String(charArray, 0, tail);
 		    }
